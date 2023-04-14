@@ -7,7 +7,7 @@ For example, when you jump in a taxi, you declare to the driver where you want t
 
 ## Views in SwiftUI
 ----------------------
-a) implementing a view protocol : 
+### a) implementing a view protocol : 
 when you create a view, you start by creating a struct that conforms to the view protocol.
 the view protocol implements the body property.
 The body contains the code on how you want the view to behave and what it will look like.
@@ -25,3 +25,16 @@ eg.
 ##### NOTE: keyword `some` :
 - introduced in swift 5.1 
 - tells the compiler what the underlying type is without exposing the type to the outside world
+
+### b) SwiftUI Containers (STACKS):
+      1. HSTACK : ogranizes views in horizontal direction
+      2. VSTACK : organizes views in vertical direction
+      3. ZSTACK : organizes views on top of each other from which they are declared in scope
+
+#### SOME USEFUL KEYS: 
+- `Command + 5 ` : brings up the issue navigator
+- `Command + option + [ / ]` : moves lines up and down resp
+-  Adding your custom hotkey in xcode : 
+    - hit `Command + , ` for prefrences
+    - go to Key Bindings tab 
+    - eg. type delete line in the filter text box - and add your custom hotkey : for instance `Command + CTRL + k`
