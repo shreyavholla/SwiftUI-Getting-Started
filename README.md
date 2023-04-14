@@ -19,7 +19,9 @@ eg.
     Text("Hello World")
     Color.blue
   }
-}```
+}
+```
+
 ##### NOTE: keyword `some` :
 - introduced in swift 5.1 
 - tells the compiler what the underlying type is without exposing the type to the outside world
