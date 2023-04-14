@@ -30,6 +30,9 @@ eg.
       1. HSTACK : ogranizes views in horizontal direction
       2. VSTACK : organizes views in vertical direction
       3. ZSTACK : organizes views on top of each other from which they are declared in scope
+  
+### c) SWIFTUI Container Layouts :
+
 
 #### SOME USEFUL KEYS: 
 - `Command + 5 ` : brings up the issue navigator
@@ -38,3 +41,5 @@ eg.
     - hit `Command + , ` for prefrences
     - go to Key Bindings tab 
     - eg. type delete line in the filter text box - and add your custom hotkey : for instance `Command + CTRL + k`
+- `Command + option + P` : to resume preview
+
