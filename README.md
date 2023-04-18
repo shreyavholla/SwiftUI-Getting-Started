@@ -43,7 +43,24 @@ eg.
     - `Command + Shift + L` bring up the *Library* to add your view modifier
     
 - By default views are placed in the center
+
+### d) View Layout : 
+- Parent view proposes a size for the child view
+- The child view then chooses its size.
+- The parent view does not force the size to its child view
+- The parent view places the child view in the parent's coordinate space
+
+```struct ContentView: View {
+  var body: some View {
+    VStack {
+        Image(systemName: "envelope.fill")
+          .frame(width:200, height:100)
+    }
+  }
+}```
   
+ here - the image size won't change as the child view(image) is still in its default size
+ in order to change it to 200x100 use the `.resizable()` modifier which resizes the child to the parent frame
 
 
 #### SOME USEFUL KEYS: 
@@ -54,4 +71,5 @@ eg.
     - go to Key Bindings tab 
     - eg. type delete line in the filter text box - and add your custom hotkey : for instance `Command + CTRL + k`
 - `Command + option + P` : to resume preview
+- `Ctrl+Shift+click` : multi cursor select
 
