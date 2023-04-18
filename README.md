@@ -57,7 +57,8 @@ eg.
           .frame(width:200, height:100)
     }
   }
-}```
+}
+```
   
  here - the image size won't change as the child view(image) is still in its default size
  in order to change it to 200x100 use the `.resizable()` modifier which resizes the child to the parent frame
