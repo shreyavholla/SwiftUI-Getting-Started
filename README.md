@@ -32,6 +32,18 @@ eg.
       3. ZSTACK : organizes views on top of each other from which they are declared in scope
   
 ### c) SWIFTUI Container Layouts :
+- A container view proposes most a size to its most restrictive view
+- if it has equal restrictiveness, the smallest view will be alloted the size first.
+- The container view subtracts the size from its previous views and proposes a new size to the remaining views.
+
+    1. View Modifiers : 
+    --------------------
+    View modifiers are methods that you can apply to a view or another view modifier that returns a new view.
+    - `Alt + Ctrl + click` on the element to bring up to *Attribute Inspector* in a popover
+    - `Command + Shift + L` bring up the *Library* to add your view modifier
+    
+- By default views are placed in the center
+  
 
 
 #### SOME USEFUL KEYS: 
